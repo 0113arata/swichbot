@@ -1,0 +1,44 @@
+{
+    "statusCode":100,
+    "body":{
+        "deviceList":[
+            {
+                "deviceId":"A848FAE3F045",
+                "deviceName":"電灯",
+                "deviceType":"Plug",
+                "enableCloudService":true,
+                "hubDeviceId":""
+            },
+            {
+                "deviceId":"E087A4586655",
+                "deviceName":"リモコン",
+                "deviceType":"Hub Mini",
+                "enableCloudService":false,
+                "hubDeviceId":""
+            },
+            {
+                "deviceId":"EB8815B5FC37",
+                "deviceName":"開閉センサー 37",
+                "deviceType":"Contact Sensor",
+                "enableCloudService":true,
+                "hubDeviceId":"E087A4586655"
+            }
+           ],
+           
+        "infraredRemoteList":[
+            {
+                "deviceId":"01-202206120849-55417342",
+                "deviceName":"ライト",
+                "remoteType":"Light",
+                "hubDeviceId":"E087A4586655"
+            },
+            {
+                "deviceId":"01-202209122251-27809057",
+                "deviceName":"エアコン",
+                "remoteType":"Air Conditioner",
+                "hubDeviceId":"E087A4586655"
+            }
+        ]
+    },
+    "message":"success"
+}
